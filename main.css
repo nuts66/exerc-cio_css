@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body > header{
+    color: rgb(255, 243, 228);
+    background-color: black;
+    padding: 16px 0px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    display: inline;   
+}
+
+header li a{
+    text-decoration: none;
+    color: rgb(255, 243, 228);
+}
+
+img {
+    width: 360px;
+    height: 200px;   
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article{
+    width: 30%;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: red;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.articles article a:hover{
+    padding: 4px;
+    display: inline-block;
+}
+
+section{
+    padding: 16px 0px;
+}
+
+section h2, .articles article{
+    margin-bottom: 8px 0px;
+}
+
+#esportes{
+    background-color: rgb(192, 255, 195);
+}
+
+#economia{
+    background-color: rgb(221, 221, 221);
+}
+
+#tecnologia{
+    background-color: rgb(174, 74, 255);
+}
+
+#cultura{
+    background-color: rgba(255, 141, 141, 0.856);
+}
